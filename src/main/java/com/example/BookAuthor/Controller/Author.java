@@ -1,7 +1,8 @@
 package com.example.BookAuthor.Controller;
 
-import com.example.mockAssignment.requestDtos.AuthorDto;
-import com.example.mockAssignment.service.AuthorService;
+
+import com.example.BookAuthor.DTOs.AuthorDto;
+import com.example.BookAuthor.Service.AuthorService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

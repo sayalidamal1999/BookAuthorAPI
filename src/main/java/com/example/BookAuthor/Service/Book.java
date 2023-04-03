@@ -1,13 +1,12 @@
 package com.example.BookAuthor.Service;
 
-import com.example.mockAssignment.Convertors.Convertor;
-import com.example.mockAssignment.models.Author;
-import com.example.mockAssignment.models.Book;
-import com.example.mockAssignment.models.Publish;
-import com.example.mockAssignment.repository.AuthorRepository;
-import com.example.mockAssignment.repository.BookRepository;
-import com.example.mockAssignment.requestDtos.BookDto;
-import com.example.mockAssignment.service.interfaces.BookServiceIntr;
+
+import com.example.BookAuthor.Convertor;
+import com.example.BookAuthor.DTOs.BookDto;
+import com.example.BookAuthor.Models.Author;
+import com.example.BookAuthor.Models.Book;
+import com.example.BookAuthor.Models.Publish;
+import com.example.BookAuthor.Repositories.AuthorRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

@@ -1,9 +1,10 @@
 package com.example.BookAuthor;
 
-import com.example.mockAssignment.models.Author;
-import com.example.mockAssignment.models.Book;
-import com.example.mockAssignment.requestDtos.AuthorDto;
-import com.example.mockAssignment.requestDtos.BookDto;
+
+import com.example.BookAuthor.DTOs.AuthorDto;
+import com.example.BookAuthor.DTOs.BookDto;
+import com.example.BookAuthor.Models.Author;
+import com.example.BookAuthor.Models.Book;
 
 public class Convertor {
     public static Book convertDtoToBook(BookDto bookDto){

@@ -1,6 +1,6 @@
 package com.example.BookAuthor.Models;
 
-package com.example.mockAssignment.models;
+
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;

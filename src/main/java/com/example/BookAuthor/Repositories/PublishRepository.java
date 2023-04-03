@@ -1,6 +1,7 @@
 package com.example.BookAuthor.Repositories;
 
-import com.example.mockAssignment.models.Publish;
+
+import com.example.BookAuthor.Models.Publish;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

@@ -1,11 +1,11 @@
 package com.example.BookAuthor.Repositories;
 
-import com.example.mockAssignment.models.Book;
+
+import com.example.BookAuthor.Models.Author;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-
 @Repository
-public interface BookRepository extends JpaRepository<Book,Integer> {
+public interface AuthorRepository extends JpaRepository<Author,Integer> {
 
 }
